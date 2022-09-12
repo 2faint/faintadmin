@@ -30,3 +30,15 @@ inp.FocusLost:connect(function(enterPressed)
 		end
 	end
 end)
+
+inp.FocusLost:connect(function(enterPressed)
+	if inp.Text == "fly" then
+		
+	end
+end)
+
+inp.FocusLost:connect(function(enterPressed)
+	if inp.Text == "newcommand" then
+
+	end
+end)
