@@ -139,12 +139,6 @@ inp.FocusLost:connect(function(enterPressed)
 end)
 
 inp.FocusLost:connect(function(enterPressed)
-	if inp.Text == "noclip" then
-		
-	end
-end
-
-inp.FocusLost:connect(function(enterPressed)
 	if inp.Text == "newcommand" then
 
 	end
