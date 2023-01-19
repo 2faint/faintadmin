@@ -121,7 +121,7 @@ inp.FocusLost:connect(function(enterPressed)
 end)
 
 inp.FocusLost:connect(function(enterPressed)
-	if inp.Text == "re" or "respawn" or "reset" then
+	if inp.Text == "re" then
 		game.Players.LocalPlayer.Character.Head:Destroy()
 	end
 end)
