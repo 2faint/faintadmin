@@ -128,15 +128,9 @@ end)
 
 inp.FocusLost:connect(function(enterPressed)
 	if inp.Text == "noclip" then
-		game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		
 	end
-end)
-
-inp.FocusLost:connect(function(enterPressed)
-	if inp.Text == "clip" then
-		game.Players.LocalPlayer.Character.Humanoid:ChangeState(1)
-	end
-end)
+end
 
 inp.FocusLost:connect(function(enterPressed)
 	if inp.Text == "newcommand" then
