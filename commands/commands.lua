@@ -39,7 +39,7 @@ inp.FocusLost:connect(function(enterPressed)
     repeat wait() until mouse
     
     local torso = plr.Character.HumanoidRootPart 
-    local flying = false
+    local flying = true
     local deb = true 
     local ctrl = {f = 0, b = 0, l = 0, r = 0} 
     local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
