@@ -1,5 +1,5 @@
 inp.FocusLost:connect(function(enterPressed)
-	if inp.Text == "cmds" then
+	if inp.Text == "cmds" or "help" then
 		if c.Visible == false then
 			c.Position=(UDim2.new(0.5, 0, 0.291, 0))
 			c.Visible=true
